@@ -1,15 +1,28 @@
 body {
-    background-color: brown;
+    background-color: rgb(158, 5, 5);
 }
+
 h1 {
     font-size: 50px;
-    font-style: bold;
     background-color: black;
     border-radius: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
 
 article {
-    position: left;
+    position: relative;
     background-color: white;
     border-radius: 5px;
+    padding: 3px 5px 5px 5px;
+    margin: 120px;
+}
+
+h2 {
+    background-color: yellow;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
 }
