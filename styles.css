@@ -1,22 +1,26 @@
 body {
     background-color: rgb(158, 5, 5);
+    color: white;
 }
 
 h1 {
     font-size: 50px;
     background-color: black;
     border-radius: 15px;
-    padding: 10px;
-    color: white;
+    padding: 10px 15px;
+    color: rgb(219, 184, 29);
     text-align: center;
+    border-bottom: 1px solid yellow;
 }
 
 article {
-    position: relative;
-    background-color: white;
-    border-radius: 5px;
+    background-color: black;
+    border-radius: 10px;
     padding: 3px 5px 5px 5px;
-    margin: 120px;
+    margin: 100px 0 0 30px; /* Top, Right, Bottom, Left */
+    color: white;
+    width: 60%; /* Adjust as needed */
+    /* float: right;  Removed as per your request */
 }
 
 h2 {
@@ -25,4 +29,46 @@ h2 {
     padding: 10px;
     border-radius: 15px;
     text-align: center;
+    color: white;
+    border-width: max-content;
+}
+article p {
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color:whitesmoke;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    text-wrap: balance;
+    table-layout: center;
+    gap: 20px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    display: flex;
+    border-bottom: 2px solid yellow;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    line-clamp: 1;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    column-gap: 10px;
+    border-radius: 5px;
 }
